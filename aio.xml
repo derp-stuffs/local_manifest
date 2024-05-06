@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote name="git" fetch="https://github.com" />
+<remote name="glab" fetch="https://gitlab.com" />
+<remote name="bitbucket" fetch="https://bitbucket.org" />
+
+<!-- Removed projects -->
+<remove-project name="platform/system/libhwbinder" />
+<remove-project name="packages_resources_devicesettings" />
+<remove-project name="frameworks_native" />
+<remove-project name="frameworks_av" />
+<remove-project name="packages_apps_FlipFlap" />
+<remove-project name="packages_apps_Updater" />
+
+<!-- Device Trees -->
+<project path="device/xiaomi/alioth" name="derp-stuffs/device_xiaomi_alioth" remote="git" revision="aosp-14" clone-depth="1" />
+<project path="device/xiaomi/sm8250-common" name="derp-stuffs/device_xiaomi_sm8250-common" remote="git" revision="aosp-14" clone-depth="1" />
+<project path="vendor/xiaomi/alioth" name="PocoF3Releases/vendor_xiaomi_alioth" remote="git" revision="aosp-14" clone-depth="1" />
+<project path="vendor/xiaomi/sm8250-common" name="PocoF3Releases/vendor_xiaomi_sm8250-common" remote="git" revision="aosp-14" clone-depth="1" />
+<project path="kernel/xiaomi/sm8250" name="PocoF3Releases/kernel_xiaomi_sm8250" remote="git" revision="aosp-14" clone-depth="1" />
+<project path="hardware/xiaomi" name="Evolution-X/hardware_xiaomi" remote="git" revision="udc" />
+<project path="packages/resources/devicesettings" name="sm8250-stuffs/packages_resources_devicesettings" remote="git" revision="los" />
+<project path="system/libhwbinder" name="Evolution-X/system_libhwbinder" remote="git" revision="u" clone-depth="1" />
+<project path="frameworks/native" name="derp-stuffs/frameworks_native" remote="git" revision="14" clone-depth="1" />
+<project path="frameworks/av" name="derp-stuffs/frameworks_av" remote="git" revision="14" clone-depth="1" />
+<project path="packages/apps/Updater" name="derp-stuffs/packages_apps_Updater" remote="git" revision="14" clone-depth="1" />
+<project path="packages/apps/FlipFlap" name="derp-stuffs/packages_apps_FlipFlap" remote="git" revision="14" clone-depth="1" />
+<project path="vendor/xiaomi/camera" name="eidoron_1/android_vendor_xiaomi_camera.git" remote="bitbucket" revision="master" clone-depth="1" />
+</manifest>
