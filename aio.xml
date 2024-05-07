@@ -25,5 +25,5 @@
 <project path="frameworks/av" name="derp-stuffs/frameworks_av" remote="git" revision="14" clone-depth="1" />
 <project path="packages/apps/Updater" name="derp-stuffs/packages_apps_Updater" remote="git" revision="14" clone-depth="1" />
 <project path="packages/apps/FlipFlap" name="derp-stuffs/packages_apps_FlipFlap" remote="git" revision="14" clone-depth="1" />
-<project path="vendor/xiaomi/camera" name="eidoron_1/android_vendor_xiaomi_camera.git" remote="bitbucket" revision="master" clone-depth="1" />
+<project path="vendor/xiaomi/camera" name="johnmart19/vendor_xiaomi_camera" remote="glab" revision="aosp-14" clone-depth="1" />
 </manifest>
