@@ -18,7 +18,7 @@
 <project path="vendor/xiaomi/alioth" name="PocoF3Releases/vendor_xiaomi_alioth" remote="git" revision="aosp-14" clone-depth="1" />
 <project path="vendor/xiaomi/sm8250-common" name="PocoF3Releases/vendor_xiaomi_sm8250-common" remote="git" revision="aosp-14" clone-depth="1" />
 <project path="kernel/xiaomi/sm8250" name="PocoF3Releases/kernel_xiaomi_sm8250" remote="git" revision="aosp-14" clone-depth="1" />
-<project path="hardware/xiaomi" name="Evolution-X/hardware_xiaomi" remote="git" revision="udc" />
+<project path="hardware/xiaomi" name="PocoF3Releases/hardware_xiaomi" remote="git" revision="udc" />
 <project path="packages/resources/devicesettings" name="sm8250-stuffs/packages_resources_devicesettings" remote="git" revision="los" />
 <project path="system/libhwbinder" name="Evolution-X/system_libhwbinder" remote="git" revision="u" clone-depth="1" />
 <project path="frameworks/native" name="derp-stuffs/frameworks_native" remote="git" revision="14" clone-depth="1" />
